@@ -7,4 +7,18 @@ $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 2.安装NREDTree
 配置.vimrc
-添加
+添加Plugin "srooloose/nerdtree"
+执行PluginInstall
+配置快捷方式：
+let mapleader=','
+nnoremap <C-l> gt
+nnoremap <C-h> gT
+map <leader>n :NERDTreeToggle<CR>
+可以通过按,+n打开和关闭NERDTREE
+o:打开分支
+C：当前分支作为根分支
+I：显示/隐藏.开头的文件
+u：上移一层作为根分支
+i：打开文件并作为横向分割
+t:打开文件并新建标签，采用c-l和c-h切换标签
+
