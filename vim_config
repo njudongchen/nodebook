@@ -1,0 +1,10 @@
+配置vim成为一个ide，一步一一步进行
+1、添加vundle插件管理器
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+按照里面的README进行配置
+配置.vimrc
+运行PluginInstall或者PluginClean
+
+2.安装NREDTree
+配置.vimrc
+添加
